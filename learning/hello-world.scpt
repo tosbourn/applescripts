@@ -1,3 +1,5 @@
+set welcomeMessage to "Hello, World!"
+
 tell application "Finder"
-  display dialog "Hello, World!"
+  display dialog welcomeMessage
 end tell
